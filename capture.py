@@ -16,6 +16,5 @@ def capture():
 
 
 
-    # キャプチャの後始末と，ウィンドウをすべて消す
     cap.release()
     cv2.destroyAllWindows()
