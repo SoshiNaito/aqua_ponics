@@ -5,7 +5,6 @@ def capture():
     count = 0
 
     while(True):
-        # フレームをキャプチャする
         ret, frame = cap.read()
 
         if count == 3:
